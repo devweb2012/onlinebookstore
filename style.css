@@ -1,0 +1,115 @@
+*{
+    margin:100;
+    padding:80;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.header h1{
+    margin: 10px;
+    color: aqua;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav  ul li{
+margin: 0 15px;
+}
+nav ul li a{
+    color: aquamarine;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.left-frame,.right-frame,.center-frame{
+    width: 30%;
+    padding:15px ;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,01);
+}
+.left-frame ul{
+    list-style: none;
+}
+.left-frame li{
+    margin: 10px 0;
+    
+}
+.right-frame{
+    background-color: rgb(220, 239, 245);
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #50464a;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* style for catalog page */
+
+.catalog-table table{
+ width: 100%;
+ border-collapse: collapse;
+}
+.catalog-table th, .catalog-table td{
+    padding:10px;
+    border: 1px solid #2b2929;
+    text-align: left;
+}
+.catalog-table th{
+    background:fuchsia;
+}
+.catalog-table tr:nth-child(even){
+    background: #075e74;}
+    
+.catalog-table tr:nth-child(odd)  {
+        background: #457013;
+    }
+.Book-image{
+    width: 100px;
+    height: 50px;
+}
+.Form-main-container{
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+    color: #50464a;
+
+}
+button{
+    justify-content:center;
+    background: #075e74;
+    color: white;
+
+}
+.signup-page{
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+    color: #50464a;
+
+}
+
+
